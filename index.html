@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+    <!--Head-->
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width" />
+        <title>Kiana Fillius</title>
+        <link rel="stylesheet" type="text/css" href="stylesheet/portfolio.css">
+    </head>
+
+     <!--Body-->
+     <body class="Background">
+        
+        <!--Navbar-->
+        <div class="Navbar">
+            <a class="active" href="#Home">Home</a>
+            <a href="#About">About</a>
+            <a href="#GitHub">GitHub</a>
+            <a href="#Contact">Contact</a>
+        </div>
+
+        <!--Breaks inserted to add space between navbar and the first heading-->
+        <br>
+        <br>
+
+        <!--Background Video-->
+        <div id="Home">
+            <video autoplay muted loop id="Typing_Video">
+                <source src="images/video/Group.mp4" type="video/mp4">
+                <!--Display messag if video fails-->
+                Your browser does not support HTML5 video.
+            </video>
+        </div>
+
+        <!--Video text-->
+        <div class="Video_Text">
+            <h1 class="white-text">Kiana's Portfolio</h1>
+            <strong>
+                <p class="center">
+                    <br>
+                    <br>
+                    <q>"Good judgment comes from experience, and experience comes from bad judgment"
+                      <br>
+                      <br>
+                    </q>
+                    <br> -Frederick P. Brooks 
+                    <br>
+                    <br> My name is Kiana Fillius and welcome to my portfolio website! It will tell you about my background and experience.
+                    <br>
+                    <br> I hope you enjoy your visit! 
+                </p>
+            </strong>
+        </div> 
+
+        <!--About section-->
+        <div class="Row" id="About">
+            <!--Left column-->
+            <div class="Column_2">
+                <img src="images/fiona-art1.jpg" alt="Tie dye and swirls.">
+            </div>
+            <!--Right column-->
+            <div class="Column_1">
+                <h1>About</h1>
+                <p>
+                    I am a software developer who loves to code! In my free time, I enjoy rock climbing, consuming horror media, and spending time with my boyfriend and cats.
+                    <br>
+                    <br>I am a graduate of <a href="https://www.learncodinganywhere.com" target="_blank">The Tech Academy</a>'s Software Developer Boot Camp. I'm trained and experienced in the following web and programming languages: Python, HTML, CSS, JavaScript, SQL, and more. 
+                    <br>
+                    <br>I also gained experience with Periscope, FullStory, Salesforce, and JIRA through previous jobs.
+                    <br>
+                    <br>I look forward to work with you on your project!
+                </p>
+            </div>
+        </div>
+
+        <!--GitHub Section-->
+        <div class="Row" id="GitHub">
+            <!--Left column-->
+            <div class="Column_1">
+                <h1>GitHub</h1>
+                <p>
+                    You can view my coding projects on my GitHub profile here:
+                    <br>
+                    <p class="center"><a href="https://github.com/Kianayana" target="_blank">Kianayana</a></p>
+                </p>
+            </div>
+            <!--Right Column-->
+            <div class="Column_2">
+                <a href="https://github.com/the-tech-academy" target="_blank"><img src="images/GitHub.png" alt="GitHub Logo"></a>
+            </div>
+        </div>
+
+        <!--Contact section-->
+        <div class="Row" id="Contact">
+            <!--Contact image, left column-->
+            <div class="Column_2 Column_tall">
+                <img src="images/horns.jpg" alt="A pciture of me so you know who you are contacting!">
+            </div>
+            <!--Contact form, right column-->
+            <div class="Column_1 Column_tall">
+                <h1>Contact</h1>
+                <!--This specifies where and how to send the form data; we are leaving it blank-->
+                <form action="https://formspree.io/f/xbjeqgol" method="POST">
+                    <label>Name:</label>
+                        <input type="text" placeholder="Please enter your name here">
+                    <label>Email:</label>
+                        <input type="text" id="Email" name="Email" placeholder="Please write your email here">
+                        <label>Message:</label>
+                        <input type="text" id="Message" name="Message" placeholder="Please write your message here">
+                        <input type="submit" value="SUBMIT">
+                </form>
+            </div>
+
+        </div>
+
+        <!--Footer section-->
+        <footer>
+            <p>
+                <p class="center">&copy Prosper Consulting Inc., <a href="https://www.learncodinganywhere.com/" target="_blank"> The Tech Academy</a></p>
+                <br>
+            </p>
+        </footer>
+    </body>
+</html>
+    
